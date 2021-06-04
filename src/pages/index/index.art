@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕云游</title>
+
+</head>
+
+<body>
+    <header class="site-head">
+        <!-- <div class="topbar">
+            <div class="center-wrap">
+                <nav class="shortcut-links">
+                    <ul>
+                        <li>
+                            <a href="#">目的地</a>
+                        </li>
+                        <li>
+                            <a href="#">锦囊</a>
+                        </li>
+                        <li class="have_menu">
+                            <a href="#">社区</a>
+                            <div class="h_menu sq">
+                                <div class="menu_box">
+                                    <ul class="menu_list">
+                                        <li><a href="#">旅行论坛</a></li>
+                                        <li><a href="#">旅行专栏</a></li>
+                                        <li><a href="#">旅行问答</a></li>
+                                        <li><a href="#">旅行生活分享平台</a></li>
+                                        <li><a href="#">JNE旅行生活美学</a></li>
+                                        <li><a href="#">Biu伴（原结伴同游)</a></li>
+                                        <li><a href="#">负责任的旅行</a></li>
+                                        <li><a href="#">特别策划</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">行程助手</a>
+                        </li>
+                        <li class="have_menu">
+                            <a href="#">商城</a>
+                            <div class="h_menu sc">
+                                <div class="menu_box">
+                                    <ul class="menu_list">
+                                        <li><a href="#">机酒自由行</a></li>
+                                        <li><a href="#">当地玩乐</a></li>
+                                        <li><a href="#">签证</a></li>
+                                        <li><a href="#">保险</a></li>
+                                        <li><a href="#">租车自驾</a></li>
+                                        <li><a href="#">游轮</a></li>
+                                        <li><a href="#">河轮</a></li>
+                                        <li><a href="#">私人订制</a></li>
+                                        <li><a href="#">欧洲铁路</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="have_menu">
+                            <a href="#">酒店·民宿</a>
+                            <div class="h_menu jd">
+                                <div class="menu_box">
+                                    <ul class="menu_list">
+                                        <li><a href="#">酒店</a></li>
+                                        <li><a href="#">爱彼迎</a></li>
+                                        <li><a href="#">华人旅馆</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">特价酒店</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="topbar-r">
+                    <ul>
+                        <li>
+                            <a class="iconfont fdj" href="">&#xe603;</a>
+                        </li>
+                        <li>
+                            <a class="iconfont" href="">&#xe666;</a>
+                        </li>
+                        <li>
+                            <a class="iconfont" href="">&#xe67a;</a>
+                        </li>
+                        <li>
+                            <a class="iconfont" href="">&#xe67b;</a>
+                        </li>
+                        <li>
+                            <a href="#">登陆</a>
+                        </li>
+                        <li>
+                            <a href="#">注册</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+        {{include '../../components/topbar/topbar.art'}}
+        <!-- <nav class="main-nav">
+            <div class="center-wrap">
+                <ul class="main-nav-list">
+                    <li class="have_menu">
+                        <a href="">机酒自由行</a>
+                        <div class="h_menu jj">
+                            <div class="menu_box">
+                                <dl class="menu_list">
+                                    <dt>全部</dt>
+                                    <dd>
+                                        <a href="#">自由行</a>
+                                        <a href="#">优惠机票</a>
+                                        <a href="#">酒店</a>
+                                        <a href="#">游轮</a>
+                                        <br>
+                                        <a href="#">定制游</a>
+                                        <a href="#">马尔代夫</a>
+                                        <a href="#">海岛游</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">优惠机票</a>
+                    </li>
+                    <li class="have_menu">
+                        <a href="">跟团游</a>
+                        <div class="h_menu gt">
+                            <div class="menu_box">
+                                <dl class="menu_list">
+                                    <dt>全部</dt>
+                                    <dd>
+                                        <a href="#">跟团游</a>
+                                        <a href="#">半自助游</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">酒店</a>
+                    </li>
+                    <li class="have_menu">
+                        <a href="">当地玩乐</a>
+                        <div class="h_menu dd">
+                            <div class="menu_box">
+                                <dl class="menu_list">
+                                    <dt>全部</dt>
+                                    <dd>
+                                        <a href="#">日游小团</a>
+                                        <a href="#">深度体验</a>
+                                        <a href="#">门票票卷</a>
+                                        <br>
+                                        <a href="#">餐饮美食</a>
+                                        <a href="#">WIFI电话卡</a>
+                                        <a href="#">购物</a>
+                                        <a href="#">交通卡</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">签证</a>
+                    </li>
+                    <li>
+                        <a href="">游轮</a>
+                    </li>
+                    <li>
+                        <a href="">河轮</a>
+                    </li>
+                    <li>
+                        <a href="">保险</a>
+                    </li>
+                    <li>
+                        <a href="">租车自驾</a>
+                    </li>
+                    <li class="have_menu">
+                        <a href="">深度旅游</a>
+                        <div class="h_menu sd">
+                            <div class="menu_box">
+                                <dl class="menu_list">
+                                    <dt>全部</dt>
+                                    <dd>
+                                        <a href="#">CityWalk</a>
+                                        <a href="#">特色长线</a>
+                                        <a href="#">Q-Home</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">私人地址</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
+        {{include '../../components/main-nav/main-nav.art'}}
+        <!-- <div class="header-con">
+            <div class="center-wrap">
+                <h1>
+                    <a href="">慕云游商城</a>
+                </h1>
+                <div class="soso-box">
+                    <input type="text" placeholder="搜目的地/酒店/攻略">
+                    <a href="javascript:;" class="btn">
+                        <b class="iconfont">&#xe603;</b>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+        {{include '../../components/header-con/header-con.art'}}
+    </header>
+    <section class="banner" id="banner">
+        <div id="slider-layout">
+     {{include './components/slider/slider.art'}}
+        </div>
+    
+        <div class="center-wrap">
+            <!-- <div class="btns">
+                <a id="leftbtn" href='javascript:;' class='btn leftbtn'></a>
+                <a id="rightbtn" href='javascript:;' class='btn rightbtn'></a>
+            </div> -->
+        {{include './components/slider/btn.art'}}
+            <div class="v-menu-box" id="v-menu-box">
+                <nav class="v-menu" id="v-menu">
+                    {{include './components/menu/art/v-menu.art'}}
+                </nav>        
+        {{include './components/menu/art/sec-menu.art'}}
+            </div>
+        </div>
+    </section>
+    <section class="layer fav-ad">
+        <div class="center-wrap" id="fav-ad"> 
+        {{include './components/advert/advert.art'}}
+        </div>
+    </section>
+    <!-- 新鲜甩尾 -->
+    <section class="layer xxsw">
+        <div class="center-wrap">
+        {{include './components/fresh spin/xxsw.art'}}
+        </div>
+    </section>
+    <section class="layer layer-common-style jjzyx">
+        <div class="center-wrap">
+        {{include './components/independent travel/art/jjzyx.art'}}
+
+        </div>
+    </section>
+    <section class="layer ddwl">
+        <div class="center-wrap">
+        {{include './components/localPlay/ddwl.art'}}
+        </div>
+    </section>
+    <section class="layer tsddty">
+        <div class="center-wrap">
+        {{include './components/localExperence/tsddty.art'}}
+        </div>
+    </section>
+    <section class="layer layer-common-style another-style zsj">
+        <div class="center-wrap">
+        {{include './components/deepTravel/zsj.art'}}
+        </div>
+    </section>
+    <section class="layer layer-common-style another-style gt">
+        <div class="center-wrap">
+        {{include './components/withGroup/gt.art'}}
+        </div>
+    </section>
+    <footer>
+        <nav class="footer-nav">
+            <div class="center-wrap">
+                {{include '../../components/footer-nav/footer-nav.art'}}
+            </div>
+        </nav>
+        <div class="bottom-bar">
+            <div class="center-wrap">
+                {{include '../../components/bottom-bar/bottom-bar.art'}}    
+            </div>
+        </div>   
+        {{include '../../components/back-to-top/back-to-top.art'}}
+    </footer>
+</body>
+</html>
+

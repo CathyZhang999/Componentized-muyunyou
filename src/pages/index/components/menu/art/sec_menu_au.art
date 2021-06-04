@@ -1,0 +1,12 @@
+<div class="menu_inn">
+    <dl>
+        {{each au}}
+        <dt>{{$value.title}}</dt>
+        <dd>
+            {{each $value.cities}}
+            <a href="">{{$value.text}}</a>
+            {{/each}}
+        </dd>
+        {{/each}}
+    </dl>
+</div>
